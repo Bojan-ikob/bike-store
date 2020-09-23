@@ -1,0 +1,161 @@
+body {
+  background-color: #e7e7e7;
+  margin: 0 100px;
+  font-family: sans-serif;
+}
+.glaven {
+  background-color: white;
+  padding: 50px;
+}
+
+.logo {
+  height: 7vh;
+  color: black;
+}
+.header ul li {
+  list-style-type: none;
+  display: inline;
+  font-weight: bolder;
+  padding: 10px 15px;
+}
+.header ul li:hover {
+  color: orange;
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
+#logoImg {
+  margin: 20px 150px 20px 0px;
+}
+#logoImg:hover {
+  cursor: pointer;
+  background-color: inherit;
+}
+.fa-search {
+  margin-left: 50px;
+}
+.fas,
+.fab {
+  font-size: 20px;
+}
+#search:hover {
+  background-color: inherit;
+}
+#shopping:hover {
+  background-color: inherit;
+}
+hr {
+  border: 1px solid lightgray;
+  width: 100%;
+  margin: 50px 0;
+}
+.bikesh1 {
+  font-size: 50px;
+}
+.bigg {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+.sidebar ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+li:hover .badge{
+  background-color: orange;
+}
+/* .badge:hover {
+  background-color: orange;
+} */
+.sidebar ul {
+  padding: 0;
+}
+.badge {
+  float: right;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 70px;
+  background-color: #fdfdfd;
+}
+.fab {
+  padding: 15px;
+  margin: 10px;
+  background-color: orange;
+  color: white;
+}
+.fab:hover {
+  background-color: lightgray;
+}
+.fa-facebook-f {
+  margin-left: -10px;
+}
+
+.footer-list {
+  width: 25%;
+  padding: 0 50px;
+}
+.f-l {
+  padding: 0 10px;
+  border-left: 2px solid lightgray;
+}
+.footer-list ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+.footer-list ul {
+  padding: 0;
+}
+.footer-list ul li:hover {
+  color: orange;
+}
+.velosipedi {
+  display: flex;
+  flex-basis: 75%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.oneBike {
+  width: 33.333%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.content div img {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.content {
+  border: 2px solid gray;
+  padding: 25px 0px 0px 0px;
+}
+.content:hover {
+  border: 5px solid orange;
+}
+.pa {
+  background-color: orange;
+  padding: 10px;
+  margin: 0;
+}
+.content div{
+  padding: 15px;
+}
+img:hover{
+transform: scale(1.1);
+}
